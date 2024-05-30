@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="css/login.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: url('path/to/your/background.jpg') no-repeat center center fixed; /* Tambahkan background */
+            background-size: cover; /* Pastikan background menutupi seluruh halaman */
+            font-family: 'Outfit', sans-serif;
+        }
+        .container-fluid, .row {
+            min-height: 100vh;
+        }
+        .login-container {
+            width: 90%;
+            max-width: 400px;
+            border: 1px solid #ccc; /* Tambahkan garis pembatas */
+            padding: 20px; /* Tambahkan padding */
+            border-radius: 8px; /* Tambahkan border radius */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Tambahkan shadow untuk efek 3D */
+            background: rgba(255, 255, 255, 0.8); /* Tambahkan background putih transparan */
+        }
+        .login-container h2 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .login-container p {
+            margin-bottom: 1.5rem;
+            color: #6c757d;
+        }
+        .login-container .form-group label {
+            font-weight: 700;
+        }
+        .forgot-password {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 576px) {
+            .login-container {
+                padding: 10px;
+            }
+            .login-container h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+        <div class="row no-gutters w-100 d-flex align-items-center justify-content-center">
+            <div class="col-md-8 col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="login-container text-center">
+                    <h2>Log in to SolowaesiLand.</h2>
+                    <p>Welcome back! Please enter your details.</p>
+                    <form>
+                        <div class="form-group text-left">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group text-right">
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        <div class="text-center my-3">or</div>
+                        <button type="button" class="btn btn-outline-dark btn-block">
+                            <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google logo"> Connect with Google
+                        </button>
+                        <div class="text-center mt-3">
+                            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

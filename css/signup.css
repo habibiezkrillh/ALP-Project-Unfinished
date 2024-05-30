@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container-fluid {
+    background: #f8f9fa;
+}
+
+.signup-bg {
+    background: url(images/BekgroundSignup.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.signup-container p {
+    margin-bottom: 1.5rem;
+    color: #6c757d;
+}
+
+.signup-container .form-group label {
+    font-weight: 700;
+}
+.signup-container button.btn-primary {
+    background-color: #103056;
+}
